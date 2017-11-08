@@ -1,0 +1,223 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+}
+.hidden {
+	display: none;
+}
+.carousel img {
+	width: 100%;
+	height: auto;
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	position: relative;
+}
+header{
+	background-color: #2F323B;
+	position: relative;
+}
+header .top_logo{
+	float: left;
+}
+header img {
+	width: 9%;
+	margin-right: 6px;
+}
+header h1 {
+	font-family: 'Conv_LeagueScriptNumberOne-webfont';
+	color: #E41627;
+	font-size: 45px;
+	margin-bottom: 0px;
+	margin-top: 12px;
+}
+header .top_logo p {
+	margin: -3px 0 13px;
+	color: #fff;
+}
+header .nav_top{
+	float: right;
+	display: inline-block;
+	margin-right: 30px;
+}
+header .nav_top a{
+	color: #fff;
+}
+header .nav_top ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+header .nav_top ul li{
+	display: inline-block;
+	padding-right: 10px;
+}
+header .nav_top button {
+	background: transparent;
+	border: none;
+	font-size: 30px;
+	color: #E41627;
+}
+header .nav_top .s_s a{
+	color: #fff;
+}
+header .nav_top .wrap-search-form {
+	position: absolute;
+	z-index: 1;
+	margin-top: 5px;
+}
+header .nav_top .wrap-search-form .search {
+	border: none;
+	border-radius: 2px 14px 2px 14px;
+	height: 31px;
+	padding-left: 5px;
+	margin-right: 5PX;
+	width: 71%;
+}
+header .nav_top .wrap-search-form .submit-btn{
+	background: transparent;
+	border: none;
+	margin-left: -20px;
+	font-size: 20px;
+}
+header .nav_top .wrap-search-form .fa {
+	font-size: 27px;
+}
+.section_1 .col-md-3 {
+	width: 20%;
+	padding: 0;
+}
+.section_1 .nav_left ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+}
+.section_1 .nav_left ul li {
+	padding-top: 14px;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #2F3230;
+	transition: all .5s;
+	-moz-box-shadow: 3px 1px 10px #777;
+    -webkit-box-shadow: 3px 1px 10px #777;
+    box-shadow: 3px 1px 10px #777;
+}
+.section_1 .nav_left ul li a{
+	color: #000;
+	outline: none;
+}
+.section_1 .nav_left ul li:hover{
+	background-color: #E41627;
+}
+.section_1 .nav_right ul{
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+}
+.section_1 .nav_right ul li {
+	display: inline-block;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.section_1 .nav_right ul li a {
+    color: #000;
+}
+.section_1 .nav_right ul li a:hover {
+    border-bottom: 4px dotted;
+}
+.section_1 .nav_right {
+    border-bottom: 2px solid #000;
+    background-image: url(../img/iVOCE5FJ5.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+.section_1 .col-md-9 {
+	width: 80%;
+}
+.butt_right ul{
+	list-style-type: none;
+}
+.butt_right ul li{
+	display: inline-block;
+	display: -moz-inline-stack;
+	zoom: 1;
+	*display: inline;
+	list-style-type: none;
+	width: 47%;
+	font-size: 12px;
+	background: #ffffff;
+	text-align: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	vertical-align: top;
+	border: #E41627 solid 1px;
+	padding: 15px;
+	-moz-border-radius: 9px 9px 9px 9px;
+	-webkit-border-radius: 9px 9px 9px 9px;
+	border-radius: 9px;
+	line-height: 120%;
+	behavior: url(pie.htc);
+}
+.section_1 .butt_right ul li img{
+	    width: 140px;
+    height: 200px;
+    float: left;
+    margin: 2px;
+    border: 1px solid #cccccc;
+    -moz-box-shadow: 3px 1px 10px #777;
+    -webkit-box-shadow: 3px 1px 10px #777;
+    box-shadow: 3px 1px 10px #777;
+}
+.section_1 .bloc_2 {
+    display: block;
+    padding-left: 160px;
+}
+.section_1 .bloc_2 p {
+    margin: 0;
+}
+.section_1 button {
+    background-color: #fff;
+    -moz-border-radius: 9px 9px 9px 9px;
+	-webkit-border-radius: 9px 9px 9px 9px;
+	border-radius: 9px;
+	border: #E41627 solid 1px;
+	-moz-box-shadow: 3px 1px 10px #777;
+    -webkit-box-shadow: 3px 1px 10px #777;
+    box-shadow: 3px 1px 10px #777;
+    transition: all .5s;
+}
+.section_1 button:hover {
+	box-shadow: none;
+}
