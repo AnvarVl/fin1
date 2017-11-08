@@ -125,7 +125,7 @@ header .nav_top .wrap-search-form .fa {
 	padding-top: 14px;
 	padding-left: 20px;
 	padding-bottom: 15px;
-	border-bottom: 1px solid #2F3230;
+	border-bottom: 1px solid #E41627;
 	transition: all .5s;
 	-moz-box-shadow: 3px 1px 10px #777;
     -webkit-box-shadow: 3px 1px 10px #777;
@@ -136,7 +136,8 @@ header .nav_top .wrap-search-form .fa {
 	outline: none;
 }
 .section_1 .nav_left ul li:hover{
-	background-color: #E41627;
+	/*background-color: #E41627;*/
+	box-shadow:none;
 }
 .section_1 .nav_right ul{
 	list-style-type: none;
