@@ -24,8 +24,8 @@ body textarea:required:valid {
 	
 }
 body {
-	font-family: "RobotoRegular", sans-serif;
-	font-size: 16px;
+	font-family: 'Peterburg', arial;
+	font-size: 18px;
 	min-width: 320px;
 	position: relative;
 }
@@ -60,8 +60,10 @@ header h1 {
 	margin-top: 12px;
 }
 header .top_logo p {
-	margin: -3px 0 13px;
+	margin: -3px 0 5px;
 	color: #fff;
+	font-family: 'BrushType Normal', arial;
+	font-size: 24px;
 }
 header .nav_top{
 	float: right;
@@ -86,9 +88,17 @@ header .nav_top button {
 	border: none;
 	font-size: 30px;
 	color: #E41627;
+	transition: all .5s;
+}
+header .nav_top button:hover{
+	color: #fff;
 }
 header .nav_top .s_s a{
 	color: #fff;
+	transition: all .5s; 
+}
+header .nav_top .s_s a:hover{
+	color: #E41627;
 }
 header .nav_top .wrap-search-form {
 	position: absolute;
@@ -111,6 +121,7 @@ header .nav_top .wrap-search-form .submit-btn{
 }
 header .nav_top .wrap-search-form .fa {
 	font-size: 27px;
+	color: #fff;
 }
 .section_1 .col-md-3 {
 	width: 20%;
@@ -128,8 +139,8 @@ header .nav_top .wrap-search-form .fa {
 	border-bottom: 1px solid #E41627;
 	transition: all .5s;
 	-moz-box-shadow: 3px 1px 10px #777;
-    -webkit-box-shadow: 3px 1px 10px #777;
-    box-shadow: 3px 1px 10px #777;
+	-webkit-box-shadow: 3px 1px 10px #777;
+	box-shadow: 3px 1px 10px #777;
 }
 .section_1 .nav_left ul li a{
 	color: #000;
@@ -152,17 +163,22 @@ header .nav_top .wrap-search-form .fa {
 	margin-right: 10px;
 }
 .section_1 .nav_right ul li a {
-    color: #000;
+	color: #000;
 }
 .section_1 .nav_right ul li a:hover {
-    border-bottom: 4px dotted;
+	border-bottom: 4px dotted;
 }
 .section_1 .nav_right {
-    border-bottom: 2px solid #000;
-    background-image: url(../img/iVOCE5FJ5.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
+	border-bottom: 2px solid #000;
+	background-image: url(../img/iVOCE5FJ5.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+.section_1 .nav_right h2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 8px;
 }
 .section_1 .col-md-9 {
 	width: 80%;
@@ -192,33 +208,146 @@ header .nav_top .wrap-search-form .fa {
 	behavior: url(pie.htc);
 }
 .section_1 .butt_right ul li img{
-	    width: 140px;
-    height: 200px;
-    float: left;
-    margin: 2px;
-    border: 1px solid #cccccc;
-    -moz-box-shadow: 3px 1px 10px #777;
-    -webkit-box-shadow: 3px 1px 10px #777;
-    box-shadow: 3px 1px 10px #777;
+	width: 140px;
+	height: 200px;
+	float: left;
+	margin: 2px;
+	border: 1px solid #cccccc;
+	-moz-box-shadow: 3px 1px 10px #777;
+	-webkit-box-shadow: 3px 1px 10px #777;
+	box-shadow: 3px 1px 10px #777;
+}
+.nav_t_r ul {
+	list-style-type: none;
+	border: 2px solid #E41627;
+	-moz-border-radius: 9px 9px 9px 9px;
+	-webkit-border-radius: 9px 9px 9px 9px;
+	border-radius: 9px;
+	background-image: url(../img/pen-clipart-feather-pen-1.jpg);
+	background-position: right;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.nav_t_r ul li{
+	display: inline-block;
+	display: -moz-inline-stack;
+	font-size: 12px;
+	background: transparent;
+	text-align: left;
+	line-height: 120%;
+}
+.nav_t_r ul li h3{
+	font-size: 16px;
+	margin-bottom: 0;
+	margin-top: 30px;
+}
+.section_1 .nav_t_r ul li img{
+	width: 140px;
+	height: 113px;
+	float: left;
+	margin: 20px 0;
+	border: 1px solid #cccccc;
+	-moz-box-shadow: 3px 1px 10px #777;
+	-webkit-box-shadow: 3px 1px 10px #777;
+	box-shadow: 3px 1px 10px #777;
+}
+.section_1 .nav_t_r ul a{
+	color: inherit;
+}
+.section_1 .nav_t_r ul button {
+	margin: 10px 0 15px;
+	border: none;
+	box-shadow: none;
+	transition: all .5s;
+}
+.section_1 .nav_t_r ul button:hover{
+	color: #E41627;
+	text-decoration: underline;
+}
+.section_1 .nav_t_r ul button .rr {
+	margin-right: 5px;
 }
 .section_1 .bloc_2 {
-    display: block;
-    padding-left: 160px;
+	display: block;
+	padding-left: 160px;
 }
 .section_1 .bloc_2 p {
-    margin: 0;
+	margin: 0;
 }
 .section_1 button {
-    background-color: #fff;
-    -moz-border-radius: 9px 9px 9px 9px;
+	background-color: #fff;
+	-moz-border-radius: 9px 9px 9px 9px;
 	-webkit-border-radius: 9px 9px 9px 9px;
 	border-radius: 9px;
 	border: #E41627 solid 1px;
 	-moz-box-shadow: 3px 1px 10px #777;
-    -webkit-box-shadow: 3px 1px 10px #777;
-    box-shadow: 3px 1px 10px #777;
-    transition: all .5s;
+	-webkit-box-shadow: 3px 1px 10px #777;
+	box-shadow: 3px 1px 10px #777;
+	transition: all .5s;
 }
 .section_1 button:hover {
 	box-shadow: none;
+}
+
+/*downloads*/
+
+.butt_r_ ul li{
+	display: inline-block;
+	font-size: 12px;
+	list-style-type: none;
+	text-align: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	vertical-align: top;
+	padding: 15px;
+	line-height: 120%;
+	behavior: url(pie.htc);
+	padding-left: 0;
+}
+.butt_r_ ul li img{
+	width: 140px;
+	height: 200px;
+	float: left;
+	margin: 20px 2px 11px;
+	-moz-box-shadow: 3px 1px 10px #777;
+	-webkit-box-shadow: 3px 1px 10px #777;
+	box-shadow: 3px 1px 10px #777;
+}
+.butt_r_ form input {
+    border: none;
+    border-bottom: 1px solid #E41627;
+}
+.butt_r_ form textarea{
+	border: none;
+	border-bottom: 1px solid #E41627;
+	border-left: 1px solid #E41627;
+}
+.butt_r_ .butt{
+	background-color: #fff;
+	-moz-border-radius: 9px 9px 9px 9px;
+	-webkit-border-radius: 9px 9px 9px 9px;
+	border-radius: 9px;
+	border: #E41627 solid 1px;
+	-moz-box-shadow: 3px 1px 10px #777;
+	-webkit-box-shadow: 3px 1px 10px #777;
+	box-shadow: 3px 1px 10px #777;
+	margin-top: 3px;
+	margin-left: 10px;
+	transition: all .5s;
+}
+.section_1 button:hover {
+	box-shadow: none;
+}
+.butt_r_  ul {
+	list-style-type: none;
+	border: 2px solid #E41627;
+	-moz-border-radius: 9px 9px 9px 9px;
+	-webkit-border-radius: 9px 9px 9px 9px;
+	border-radius: 9px;
+	background-image: url(../img/pen-clipart-feather-pen-1.jpg);
+	background-position: right;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 30px;
+	margin-left: 50px;
 }
