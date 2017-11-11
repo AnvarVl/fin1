@@ -176,9 +176,9 @@ header .nav_top .wrap-search-form .fa {
 	background-position: right;
 }
 .section_1 .nav_right h2 {
-    text-align: center;
-    font-size: 20px;
-    margin-bottom: 8px;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 8px;
 }
 .section_1 .col-md-9 {
 	width: 80%;
@@ -194,7 +194,6 @@ header .nav_top .wrap-search-form .fa {
 	list-style-type: none;
 	width: 47%;
 	font-size: 12px;
-	background: #ffffff;
 	text-align: left;
 	margin-right: 10px;
 	margin-top: 10px;
@@ -313,14 +312,26 @@ header .nav_top .wrap-search-form .fa {
 	-webkit-box-shadow: 3px 1px 10px #777;
 	box-shadow: 3px 1px 10px #777;
 }
+.butt_r_ ul li .s_img img {
+	height: 157px;
+}
 .butt_r_ form input {
-    border: none;
-    border-bottom: 1px solid #E41627;
+	border: none;
+	border-bottom: 1px solid #E41627;
 }
 .butt_r_ form textarea{
 	border: none;
 	border-bottom: 1px solid #E41627;
 	border-left: 1px solid #E41627;
+}
+.butt_r_ form a {
+	color: #E41627;
+	text-decoration: none;
+	transition: all .5s;
+}
+.butt_r_ form a:hover{
+	color: #337ab7;
+	text-decoration: underline;
 }
 .butt_r_ .butt{
 	background-color: #fff;
@@ -335,10 +346,11 @@ header .nav_top .wrap-search-form .fa {
 	margin-left: 10px;
 	transition: all .5s;
 }
-.section_1 button:hover {
+.section_1 button:hover,
+.section_1 .butt:hover {
 	box-shadow: none;
 }
-.butt_r_  ul {
+.butt_r_ ul {
 	list-style-type: none;
 	border: 2px solid #E41627;
 	-moz-border-radius: 9px 9px 9px 9px;
@@ -350,4 +362,52 @@ header .nav_top .wrap-search-form .fa {
 	background-repeat: no-repeat;
 	margin-top: 30px;
 	margin-left: 50px;
+}
+.butt_r_.sett  ul{
+	background-image: url(../img/sett.jpg);
+}
+.section_1 .bu_r ul li{
+	width: 100%;
+}
+.section_1 .bu_r .bloc_2 {
+    padding-left: 167px;
+}
+.section_1 .butt_right.bu_r ul {
+    list-style-type: none;
+	border: 2px solid #E41627;
+	-moz-border-radius: 9px 9px 9px 9px;
+	-webkit-border-radius: 9px 9px 9px 9px;
+	border-radius: 9px;
+}
+.section_1 .butt_right.bu_r ul li{
+	display: table-cell;
+	border: none;
+}
+footer{
+	background-color: #2F323B;
+	position: relative;
+}
+footer .butt_logo{
+	float: left;
+}
+footer .butt_logo img {
+	width: 9%;
+	margin-right: 6px;
+}
+footer .butt_logo h1{
+	font-family: 'Conv_LeagueScriptNumberOne-webfont';
+	color: #E41627;
+	font-size: 45px;
+	margin: 5px 0 0;
+}
+footer .butt_logo p{
+	margin: -3px 0 5px;
+	color: #fff;
+	font-family: 'BrushType Normal', arial;
+	font-size: 24px;
+}
+footer .butt_p p {
+	float: right;
+	color: #fff;
+	font-family: 'Mon Amour One Medium', arial;
 }
