@@ -380,7 +380,7 @@ header .nav_top .wrap-search-form .fa {
 	border-radius: 9px;
 }
 .section_1 .butt_right.bu_r ul li{
-	display: table-cell;
+	display: block;
 	border: none;
 }
 footer{
