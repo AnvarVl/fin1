@@ -73,6 +73,35 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3">
+					<input type="checkbox" id="nav-toggle" hidden>
+					<div class="nav visible-md visible-sm visible-xs">
+						<label for="nav-toggle" class="nav-toggle na_1" onclick></label>
+						<ul>
+							<li><a href="indexs/business.html">Бизнес-Книги</a></li>
+							<li><a href="indexs/foreign.html">Зарубежная литература</a></li>
+							<li><a href="indexs/baby.html">Детские книги</a></li>
+							<li><a href="indexs/modern.html">Современная проза</a></li>
+							<li><a href="indexs/fiction.html">Фантастика</a></li>
+							<li><a href="indexs/fantasy.html">Фэнтези</a></li>
+							<li><a href="indexs/detectives.html">Детективы</a></li>
+							<li><a href="indexs/adventure.html">Приключения</a></li>
+							<li><a href="indexs/militants.html">Боевики</a></li>
+							<li><a href="indexs/love.html">Любовные романы</a></li>
+							<li><a href="indexs/classic.html">Классика</a></li>
+							<li><a href="indexs/religion.html">Религия</a></li>
+							<li><a href="indexs/humor.html">Юмор</a></li>
+							<li><a href="indexs/poetry.html">Поэзия, Драматургия</a></li>
+							<li><a href="indexs/psychology.html">Книги по психологии</a></li>
+							<li><a href="indexs/house.html">Дом, Семья</a></li>
+							<li><a href="indexs/art.html">Искуство</a></li>
+							<li><a href="indexs/science.html">Наука, Образование</a></li>
+							<li><a href="indexs/handbook.html">Справочники</a></li>
+							<li><a href="indexs/computers.html">Компьютеры</a></li>
+							<li><a href="indexs/lead.html">Повести, Рассказы</a></li>
+							<li><a href="indexs/publicism.html">Публицистика</a></li>
+						</ul>
+					</div>
+					<div class="mask-content"></div>
 					<div class="nav_left">
 						<ul>
 							<li><a href="indexs/business.html">Бизнес-Книги</a></li>
@@ -124,7 +153,7 @@
 								<div class="img"><img src="../img/021.jpg" alt="alt"></div>
 								<button class="butt">Загрузить обложку</button>
 							</li>
-							<li>
+							<li class="formm">
 								<form name="test" method="post" action="input1.php">
 									<p><h3>Название книги:</h3><br>
 										<input type="text" size="40">
@@ -135,42 +164,70 @@
 									<p><b>Язык:</b><Br>
 										<input type="text" name="language" value="Русский"><Br>
 									</p>
-									<p>Комментарий / <a href="#">Правила</a><Br>
-										<textarea name="comment" cols="40" rows="3" placeholder="(перед тем, как заполнять это поле, ознакомтесь с правилами)"></textarea>
-									</p>
-									<p><input class="butt but_t" type="submit" value="Загрузить на сервер">
-										<input class="butt but_t"  type="reset" value="Очистить">
-										<input class="butt but_t"  type="reset" value="Добавить файл">
-									</p>
-								</form>
-							</li>
-						</ul>
+									<p class="p_m"><b>Жанр:</b><Br>
+										<div class="div_sell">
+											<select id="" name="Genre" form="first_data_form">
+												<option value="Бизнес-Книги">Бизнес-Книги</option>
+												<option value="Зарубежная литература">Зарубежная литература</option>
+												<option value="Детские книги">Детские книги</option>
+												<option value="Современная проза">Современная проза</option>
+												<option value="Фантастика">Фантастика</option>
+												<option value="Фэнтези">Фэнтези</option>
+												<option value="Детективы">Детективы</option>
+												<option value="Приключения">Приключения</option>
+												<option value="Боевики">Боевики</option>
+												<option value="Любовные романы">Любовные романы</option>
+												<option value="Классика">Классика</option>
+												<option value="Религия">Религия</option>
+												<option value="Юмор">Юмор</option>
+												<option value="Поэзия, Драматургия">Поэзия, Драматургия</option>
+												<option value="Книги по психологии">Книги по психологии</option>
+												<option value="Дом, Семья">Дом, Семья</option>
+												<option value="Искусство">Искусство</option>
+												<option value="Искусство">Искусство</option>
+												<option value="Наука, Образование">Наука, Образование</option>
+												<option value="Справочники">Справочники</option>
+												<option value="Компьютеры">Компьютеры</option>
+												<option value="Повести, Рассказы">Повести, Рассказы</option>
+												<option value="Публицистика">Публицистика</option>
+											</select>
+										</div>
+										<p>Комментарий / <a href="#">Правила</a><Br>
+											<textarea name="comment" cols="40" rows="3" placeholder="(перед тем, как заполнять это поле, ознакомтесь с правилами)"></textarea>
+										</p>
+										<p><input class="butt but_t" type="submit" value="Загрузить на сервер">
+											<input class="butt but_t"  type="reset" value="Очистить">
+											<input class="butt but_t"  type="reset" value="Добавить файл">
+										</p>
+									</form>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="butt_logo">
-					<h1><img src="../img/bookred.png" alt="ait"> bookshelf </h1>
-					<p>Читай, выкладывай, скачивай!</p> 
-				</div>
-				<div class="butt_p">
-					<p>В книге есть все, что нужно для жизни.<br>
-					И даже больше...</p>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="butt_logo">
+						<h1><img src="../img/bookred.png" alt="ait"> bookshelf </h1>
+						<p>Читай, выкладывай, скачивай!</p> 
+					</div>
+					<div class="butt_p">
+						<p>В книге есть все, что нужно для жизни.<br>
+						И даже больше...</p>
+					</div>
 				</div>
 			</div>
-		</div>
-	</footer>
-	<div class="hidden"></div>
-	<!-- Mandatory for Responsive Bootstrap Toolkit to operate -->
-	<div class="device-xs visible-xs"></div>
-	<div class="device-sm visible-sm"></div>
-	<div class="device-md visible-md"></div>
-	<div class="device-lg visible-lg"></div>
-	<!-- end mandatory -->
+		</footer>
+		<div class="hidden"></div>
+		<!-- Mandatory for Responsive Bootstrap Toolkit to operate -->
+		<div class="device-xs visible-xs"></div>
+		<div class="device-sm visible-sm"></div>
+		<div class="device-md visible-md"></div>
+		<div class="device-lg visible-lg"></div>
+		<!-- end mandatory -->
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
@@ -192,6 +249,9 @@
 <script src="../libs/equalheight/jquery.equalheight.js"></script>
 <script src="../libs/stellar/jquery.stellar.min.js"></script>
 <script src="../js/common.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css">
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>

@@ -140,13 +140,14 @@ $(document).ready(function() {
 		// 		return false;
 		// 	};
 		// });
-};
-$(document).ready(function() {
-	resizeWindow();
-});
-$(window).bind("resize", function() {
-	viewport.changed(function(){
+	};
+	$(document).ready(function() {
 		resizeWindow();
 	});
-});
+	$(window).bind("resize", function() {
+		viewport.changed(function(){
+			resizeWindow();
+		});
+	});
 })(jQuery, document, window, ResponsiveBootstrapToolkit);
+
