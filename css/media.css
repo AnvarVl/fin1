@@ -127,6 +127,9 @@
 	[id="nav-toggle"]:checked ~ .nav {
 		left: 0px;
 	}
+	.butt_r_.sett ul li .butt.but_1 {
+		width: 77%;
+	}
 }
 @media only screen and (max-width : 770px){
 	.nav-toggle {
@@ -206,7 +209,11 @@
 	.nav-toggle.na_1 {
 		top: 17em;
 	}
+	.butt_r_.sett ul li .butt.but_1 {
+		width: 100%;
+	}
 }
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 550px) {
 	.butt_r_.sett.b_sr ul {
@@ -232,51 +239,50 @@
 	.butt_r_ ul {
 		padding-left: 16px;
 	}
-}
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 420px) {
-	.butt_right ul li {
-		font-size: 10px;
+	/* Custom, iPhone Retina */
+	@media only screen and (max-width : 420px) {
+		.butt_right ul li {
+			font-size: 10px;
+		}
+		.section_1 .bloc_2 {
+			padding-left: 100px;
+		}
+		.section_1 .butt_right ul li img {
+			width: 87px;
+			height: 129px;
+		}
+		.butt_right ul li {
+			line-height: 145%;
+		}
+		.section_1 .bu_r .bloc_2 {
+			padding-left: 105px;
+		}
+		.section_1 .bloc_2.b_1 {
+			padding-left: 155px;
+		}
+		.nav_t_r ul li h3 {
+			background-color: #fff;
+			padding: 5px;
+			border-radius: 3px;
+		}
 	}
-	.section_1 .bloc_2 {
-		padding-left: 100px;
+	/* Custom, iPhone Retina */
+	@media only screen and (max-width : 420px) {
+		.butt_r_ form textarea {
+			width: 140%;
+		}
+		.butt_r_ form input,
+		.butt_r_ form h3 {
+			width: 100%;
+		}
+		.butt_r_.sett ul li .butt {
+			width: 30%;
+		}
+		.butt_r_ .but_t {
+			width: inherit;
+		}
 	}
-	.section_1 .butt_right ul li img {
-		width: 87px;
-		height: 129px;
-	}
-	.butt_right ul li {
-		line-height: 145%;
-	}
-	.section_1 .bu_r .bloc_2 {
-		padding-left: 105px;
-	}
-	.section_1 .bloc_2.b_1 {
-		padding-left: 155px;
-	}
-	.nav_t_r ul li h3 {
-		background-color: #fff;
-		padding: 5px;
-		border-radius: 3px;
-	}
-}
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 420px) {
-	.butt_r_ form textarea {
-		width: 140%;
-	}
-	.butt_r_ form input,
-	.butt_r_ form h3 {
-		width: 100%;
-	}
-	.butt_r_.sett ul li .butt {
-		width: 30%;
-	}
-	.butt_r_ .but_t {
-		width: inherit;
-	}
-}
 /**
  * позаботьтимся о средних и маленьких экранах
  * мобильных устройств
