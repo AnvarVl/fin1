@@ -1,27 +1,10 @@
-/**::-webkit-input-placeholder {
-	color: #666;
-	opacity: 1;
-}
-*:-moz-placeholder {
-	color: #666;
-	opacity: 1;
-}
-*::-moz-placeholder {
-	color: #666;
-	opacity: 1;
-}
-*:-ms-input-placeholder {
-	color: #666;
-	opacity: 1;
-}*/
-
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
-	
+
 }
 body input:required:valid,
 body textarea:required:valid {
-	
+
 }
 body {
 	font-family: 'Conv_ofont.ru_Petersburg';
@@ -722,4 +705,87 @@ body {
 	background: red;
 	-webkit-transition: width 0s ease;
 	transition: width 0s ease;
+}
+
+
+/* страница модератора*/
+
+.cont_ ul {
+	list-style-type: none;
+	border: 2px solid #E41627;
+	-moz-border-radius: 9px 9px 9px 9px;
+	-webkit-border-radius: 9px 9px 9px 9px;
+	border-radius: 9px;
+	background-image: url(../img/pen-clipart-feather-pen-1.jpg);
+	background-position: right;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 30px;
+}
+.cont_ ul li {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	font-size: 15px;
+	text-align: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	vertical-align: top;
+	padding: 15px;
+}
+.cont_ img {
+	width: 140px;
+	height: 200px;
+	float: left;
+	margin: 2px;
+	border: 1px solid #cccccc;
+	-moz-box-shadow: 3px 1px 10px #777;
+	-webkit-box-shadow: 3px 1px 10px #777;
+	box-shadow: 3px 1px 10px #777;
+}
+.cont_ .but_c {
+	background-color: #fff;
+	-moz-border-radius: 9px 9px 9px 9px;
+	-webkit-border-radius: 9px 9px 9px 9px;
+	border-radius: 9px;
+	border: #E41627 solid 1px;
+	-moz-box-shadow: 3px 1px 10px #777;
+	-webkit-box-shadow: 3px 1px 10px #777;
+	box-shadow: 3px 1px 10px #777;
+	margin-top: 3px;
+	margin-left: 5px;
+	transition: all .5s;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.cont_ .but_c:hover {
+    box-shadow: none;
+}
+.cont_ form input {
+    border: none;
+    border-bottom: 1px solid #E41627;
+}
+.cont_ form h3{
+	margin-bottom: 0px;
+}
+.cont_ form .p_m {
+    margin-bottom: 5px;
+}
+.cont_ form textarea {
+    border: none;
+    border-bottom: 1px solid #E41627;
+    border-left: 1px solid #E41627;
+}
+.cont_ form a {
+    color: #E41627;
+    text-decoration: none;
+    transition: all .5s;
+    line-height: 2;
+}
+.cont_ form a:hover {
+    color: #337ab7;
+    text-decoration: underline;
+}
+.cont_ .f_2 {
+    margin-top: 7px;
 }
