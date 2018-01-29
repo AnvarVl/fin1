@@ -103,13 +103,6 @@
 		margin-right: 0px;
 		margin-bottom: 12px;
 	}
-	footer h1 {
-		font-size: 40px;
-	}
-	footer img {
-		width: 5%;
-		margin-right: 2px;
-	}
 	footer .butt_logo p {
 		font-size: 21px;
 	}
@@ -157,13 +150,6 @@
 	}
 	header .butt_p {
 		float: none;
-	}
-	header h1 {
-		font-size: 40px;
-	}
-	header img {
-		width: 5%;
-		margin-right: 2px;
 	}
 	header .top_logo p {
 		font-size: 21px;
@@ -214,6 +200,12 @@
 	.butt_r_.sett.b_sr ul {
 		background-size: 52%;
 	}
+	.section_1 .butt_r_.sett.b_re.b_sr .ulr {
+		flex-wrap: wrap;
+	}
+	.sec_heigt {
+		height: auto;
+	}
 }
 @media only screen and (max-width : 450px) {
 	.section_1 .nav_right {
@@ -232,105 +224,105 @@
 	.butt_r_ ul {
 		padding-left: 16px;
 	}
-@media only screen and (max-width : 420px) {
-	.butt_right ul li {
-		font-size: 10px;
+	@media only screen and (max-width : 420px) {
+		.butt_right ul li {
+			font-size: 10px;
+		}
+		.section_1 .bloc_2 {
+			padding-left: 100px;
+		}
+		.section_1 .butt_right ul li img {
+			width: 87px;
+			height: 129px;
+		}
+		.butt_right ul li {
+			line-height: 145%;
+		}
+		.section_1 .bu_r .bloc_2 {
+			padding-left: 105px;
+		}
+		.section_1 .bloc_2.b_1 {
+			padding-left: 155px;
+		}
+		.nav_t_r ul li h3 {
+			background-color: #fff;
+			padding: 5px;
+			border-radius: 3px;
+		}
+		.cont_ form textarea {
+			width: 82%;
+		}
+		.butt_r_ form textarea {
+			width: 140%;
+		}
+		.butt_r_ form input,
+		.butt_r_ form h3 {
+			width: 100%;
+		}
+		.butt_r_.sett ul li .butt {
+			width: 100%;
+		}
+		.butt_r_ .but_t {
+			width: inherit;
+		}
+		.cont_ form input {
+			width: 88%;
+		}
 	}
-	.section_1 .bloc_2 {
-		padding-left: 100px;
-	}
-	.section_1 .butt_right ul li img {
-		width: 87px;
-		height: 129px;
-	}
-	.butt_right ul li {
-		line-height: 145%;
-	}
-	.section_1 .bu_r .bloc_2 {
-		padding-left: 105px;
-	}
-	.section_1 .bloc_2.b_1 {
-		padding-left: 155px;
-	}
-	.nav_t_r ul li h3 {
-		background-color: #fff;
-		padding: 5px;
-		border-radius: 3px;
-	}
-	.cont_ form textarea {
-		width: 82%;
-	}
-	.butt_r_ form textarea {
-		width: 140%;
-	}
-	.butt_r_ form input,
-	.butt_r_ form h3 {
-		width: 100%;
-	}
-	.butt_r_.sett ul li .butt {
-		width: 30%;
-	}
-	.butt_r_ .but_t {
-		width: inherit;
-	}
-	.cont_ form input {
-    width: 88%;
-    }
-}
 
-@media screen and (min-width: 320px) {
-	html,
-	body {
-		margin: 0;
-		overflow-x: hidden;
+	@media screen and (min-width: 320px) {
+		html,
+		body {
+			margin: 0;
+			overflow-x: hidden;
+		}
 	}
-}
-@media screen and (max-width: 320px) {
-	html,
-	body {
-		margin: 0;
-		overflow-x: hidden;
+	@media screen and (max-width: 320px) {
+		html,
+		body {
+			margin: 0;
+			overflow-x: hidden;
+		}
+		.nav {
+			width: 100%;
+			box-shadow: none
+		}
+		.nav-toggle {
+			position: absolute;
+			left: 320px;
+			top: 9.5em;
+			padding: 0.3em;
+		}
+		.nav-toggle.na_1 {
+			top: 18em;
+		}
+		.nav-toggle.na_2 {
+			top: 17em;
+		}
 	}
-	.nav {
-		width: 100%;
-		box-shadow: none
+
+	/*==========  Mobile First Method  ==========*/
+
+	/* Custom, iPhone Retina */
+	@media only screen and (min-width : 320px) {
 	}
-	.nav-toggle {
-		position: absolute;
-		left: 320px;
-		top: 9.5em;
-		padding: 0.3em;
+
+	/* Extra Small Devices, Phones */
+	@media only screen and (min-width : 480px) {
+
 	}
-	.nav-toggle.na_1 {
-		top: 18em;
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 768px) {
+
 	}
-	.nav-toggle.na_2 {
-		top: 17em;
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+
 	}
-}
 
-/*==========  Mobile First Method  ==========*/
+	/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1200px) {
 
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-
-}
+	}
